@@ -2,7 +2,7 @@
 <head></head>
 <body>
     <form action="complemento.php" method="POST">
-        <h2>Destinos turisticos</h2> <br>
+        <h2>Destinos turisticos </h2> <br>
         <select id="destinos" name="destinos[] " multiple>
             <option value="cancun">Cancún</option>
             <option value="puerto_vallarta">Puerto Vallarta</option>

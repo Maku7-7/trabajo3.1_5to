@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Destinos turisticos</h2> <br>
+    <h2>Destinos turisticos </h2> <br>
     <?php
         $destinos=$_POST['destinos'] ?? [];
         foreach($destinos as $des){
