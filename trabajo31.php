@@ -1,8 +1,13 @@
 <html>
 <head></head>
 <body>
+<<<<<<< HEAD
     <form action="complemento.php" method="POST">
         <h2>Destinos turisticos </h2> <br>
+=======
+    <form action="recibeOpciones.php" method="POST">
+        <h2>destinos</h2> <br>
+>>>>>>> 993d8cd14008b1fab57fe72017d396aaa7bf925c
         <select id="destinos" name="destinos[] " multiple>
             <option value="cancun">Cancún</option>
             <option value="puerto_vallarta">Puerto Vallarta</option>
@@ -11,6 +16,7 @@
             <option value="huatulco">Huatulco</option>
             <option value="puerto_escondido">Puerto Escondido</option>
         </select><br><br>
+<<<<<<< HEAD
 
     
         <h2>Actividades turisticas</h2>
@@ -49,6 +55,8 @@
              id="opcion-7" name="activ[]">
              Visita a museos
         </label> <BR></BR>
+=======
+>>>>>>> 993d8cd14008b1fab57fe72017d396aaa7bf925c
         <button type="submit">Enviar</button>
     </form>
 </body>

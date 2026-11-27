@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,3 +23,12 @@
     ?>
 </body>
 </html>
+=======
+<?php
+    echo "Lugares elegidos: <br>";
+    $viaje=$_POST['destinos'] ?? [];
+    foreach($viaje as $vi){
+        echo $vi . "<br>";
+    }
+?>
+>>>>>>> 993d8cd14008b1fab57fe72017d396aaa7bf925c
